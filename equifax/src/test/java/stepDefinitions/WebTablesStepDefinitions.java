@@ -22,10 +22,7 @@ public class WebTablesStepDefinitions {
 
     @Given("Dado que tengo desplegado el navegador {string} con la url {string}")
     public void dadoQueTengoDesplegadoElNavegadorConLaUrl(String navegador, String url) {
-
         Driver.resolveDriver("Chrome", "chromedriver", "https://demoqa.com/webtables");
-
-        System.out.println("??");
     }
 
     @And("Selecciono el elemento Web Tables del menu lateral izquierdo")
